@@ -1,0 +1,4543 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:09:02 +0400
+Processing by HomeController#index as HTML
+Redirected to http://127.0.0.1:3000/login
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:09:03 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 955ms (Views: 954.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:09:04 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:09:09 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mf+/pNwwV2RhgKwO9GiQCK4Wpwmrw+UtM/Yuhm1ytOY=", "shop"=>"anova", "commit"=>"Install"}
+Redirected to http://127.0.0.1:3000/auth/shopify?shop=anova.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova.myshopify.com" for 127.0.0.1 at 2014-09-02 00:09:09 +0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:09:37 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:09:40 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mf+/pNwwV2RhgKwO9GiQCK4Wpwmrw+UtM/Yuhm1ytOY=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://127.0.0.1:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 00:09:40 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:25:18 +0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:25:18 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:25:19 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:25:27 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 00:25:27 +0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:27:14 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:28:05 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 00:28:05 +0400
+
+
+Started GET "/auth/shopify/callback?error=invalid_scope&shop=anova-culinary.myshopify.com&timestamp=1409603304&signature=478b159115d101a3d2cfa48e9f40cb51" for 127.0.0.1 at 2014-09-02 00:28:23 +0400
+
+OmniAuth::Strategies::OAuth2::CallbackError (invalid_scope):
+  omniauth (1.2.2) lib/omniauth/failure_endpoint.rb:25:in `raise_out!'
+  omniauth (1.2.2) lib/omniauth/failure_endpoint.rb:20:in `call'
+  omniauth (1.2.2) lib/omniauth/failure_endpoint.rb:12:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:475:in `fail!'
+  omniauth-oauth2 (1.1.2) lib/omniauth/strategies/oauth2.rb:71:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:30:53 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:30:54 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 00:30:54 +0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:31:01 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:31:52 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 520ms (Views: 495.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:31:54 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:31:56 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 00:31:56 +0400
+
+
+Started GET "/auth/shopify/callback?code=8f280d0af8f554accc2414e357b4762d&shop=anova-culinary.myshopify.com&timestamp=1409603521&signature=40278fc8ab65b519adf42d0f913657ee" for 127.0.0.1 at 2014-09-02 00:32:01 +0400
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"8f280d0af8f554accc2414e357b4762d", "shop"=>"anova-culinary.myshopify.com", "timestamp"=>"1409603521", "signature"=>"40278fc8ab65b519adf42d0f913657ee"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:32:02 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2120.7ms)
+Completed 200 OK in 4072ms (Views: 2155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:32:06 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings-white.png" for 127.0.0.1 at 2014-09-02 00:32:17 +0400
+
+
+Started GET "/design" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+Processing by HomeController#design as HTML
+  Rendered home/design.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:36 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:32:38 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2120.2ms)
+Completed 200 OK in 3661ms (Views: 2131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:32:42 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2169.6ms)
+Completed 200 OK in 3554ms (Views: 2187.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:32:45 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2192.8ms)
+Completed 200 OK in 3699ms (Views: 2207.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:32:49 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2213.9ms)
+Completed 200 OK in 3682ms (Views: 2226.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:32:53 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1962.1ms)
+Completed 200 OK in 3577ms (Views: 1975.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:56 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:32:57 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:34:20 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2015.3ms)
+Completed 200 OK in 6104ms (Views: 2028.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:34:26 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:34:27 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:37:22 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2300.7ms)
+Completed 200 OK in 4675ms (Views: 2316.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:37:27 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:38:40 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2130.3ms)
+Completed 200 OK in 4518ms (Views: 2148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:38:45 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:38:46 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:46:30 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2235.9ms)
+Completed 200 OK in 6617ms (Views: 2249.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:46:36 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:46:36 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:46:36 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:46:36 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:46:36 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:36 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:46:37 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:47:37 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2064.2ms)
+Completed 200 OK in 6062ms (Views: 2084.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:47:43 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:47:44 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:48:42 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2083.7ms)
+Completed 200 OK in 6192ms (Views: 2093.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:48:49 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:49:24 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2089.5ms)
+Completed 200 OK in 6225ms (Views: 2104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:49:30 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:49:31 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:52:21 +0400
+
+SyntaxError (/home/wizard/Downloads/anova/app/controllers/home_controller.rb:25: syntax error, unexpected ':', expecting tASSOC
+  :addresses: 
+             ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:37: syntax error, unexpected ')', expecting keyword_end):
+  app/controllers/home_controller.rb:25: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:37: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 00:52:30 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 00:52:34 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 00:52:34 +0400
+
+
+Started GET "/auth/shopify/callback?code=48b74519c5878ca90a14c9c99a534fcb&shop=anova-culinary.myshopify.com&timestamp=1409604755&signature=cbf824025c764e4d247a6ad75b97c51a" for 127.0.0.1 at 2014-09-02 00:52:35 +0400
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"48b74519c5878ca90a14c9c99a534fcb", "shop"=>"anova-culinary.myshopify.com", "timestamp"=>"1409604755", "signature"=>"cbf824025c764e4d247a6ad75b97c51a"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:52:36 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3110ms
+
+ActiveResource::BadRequest (Failed.  Response code = 400.  Response message = Bad Request.):
+  app/controllers/home_controller.rb:21:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:53:01 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2084.3ms)
+Completed 200 OK in 5901ms (Views: 2096.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:53:07 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:53:08 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:53:44 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2029.4ms)
+Completed 200 OK in 6188ms (Views: 2043.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:53:50 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:53:51 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:55:24 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2062.3ms)
+Completed 200 OK in 6618ms (Views: 2081.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:30 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:55:31 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 00:56:00 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2326.9ms)
+Completed 200 OK in 6708ms (Views: 2349.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 00:56:07 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 00:56:08 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:04:22 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2140.7ms)
+Completed 200 OK in 6674ms (Views: 2153.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:04:28 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:04:29 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:10:28 +0400
+
+SyntaxError (/home/wizard/Downloads/anova/app/controllers/home_controller.rb:24: syntax error, unexpected ':', expecting tASSOC
+  "order": {
+          ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:25: syntax error, unexpected ':', expecting tASSOC
+    "line_items": [
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:27: syntax error, unexpected ':', expecting tASSOC
+        "variant_id": 326656497,
+                     ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+        "quantity": 2
+                   ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:31: syntax error, unexpected ':', expecting keyword_end
+    "customer": {
+               ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:32: syntax error, unexpected ':', expecting tASSOC
+      "first_name": "Alex",
+                   ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:32: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:33: syntax error, unexpected ':', expecting keyword_end
+      "last_name": "Test",
+                  ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:33: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:34: syntax error, unexpected ':', expecting keyword_end
+      "email": "wizardsasha@gmail.com",
+              ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:34: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:37: syntax error, unexpected ':', expecting keyword_end
+    "billing_address": {
+                      ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:38: syntax error, unexpected ':', expecting tASSOC
+      "first_name": "John",
+                   ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:38: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:39: syntax error, unexpected ':', expecting keyword_end
+      "last_name": "Smith",
+                  ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:39: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:40: syntax error, unexpected ':', expecting keyword_end
+      "address1": "123 Fake Street",
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:40: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+      "phone": "555-555-5555",
+              ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:41: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:42: syntax error, unexpected ':', expecting keyword_end
+      "city": "Fakecity",
+             ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:42: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:43: syntax error, unexpected ':', expecting keyword_end
+      "province": "Ontario",
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:43: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:44: syntax error, unexpected ':', expecting keyword_end
+      "country": "Canada",
+                ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:44: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:45: syntax error, unexpected ':', expecting keyword_end
+      "zip": "H0H0H0"
+            ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:46: syntax error, unexpected '}', expecting keyword_end
+    },
+     ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:47: syntax error, unexpected ':', expecting keyword_end
+    "shipping_address": {
+                       ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:48: syntax error, unexpected ':', expecting tASSOC
+      "first_name": "Jane",
+                   ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:48: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:49: syntax error, unexpected ':', expecting keyword_end
+      "last_name": "Smith",
+                  ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:49: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:50: syntax error, unexpected ':', expecting keyword_end
+      "address1": "123 Fake Street",
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:50: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:51: syntax error, unexpected ':', expecting keyword_end
+      "phone": "777-777-7777",
+              ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:51: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:52: syntax error, unexpected ':', expecting keyword_end
+      "city": "Fakecity",
+             ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:52: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:53: syntax error, unexpected ':', expecting keyword_end
+      "province": "Ontario",
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:53: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:54: syntax error, unexpected ':', expecting keyword_end
+      "country": "Canada",
+                ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:54: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:55: syntax error, unexpected ':', expecting keyword_end
+      "zip": "H0H0H0"
+            ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:56: syntax error, unexpected '}', expecting keyword_end
+    },
+     ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:57: syntax error, unexpected ':', expecting keyword_end
+    "email": "jane@example.com",
+            ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:57: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:58: syntax error, unexpected ':', expecting keyword_end
+    "transactions": [
+                   ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:60: syntax error, unexpected ':', expecting tASSOC
+        "kind": "authorization",
+               ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:60: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:61: syntax error, unexpected ':', expecting keyword_end
+        "status": "success",
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:61: syntax error, unexpected ',', expecting keyword_end
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:62: syntax error, unexpected ':', expecting keyword_end
+        "amount": 50.0
+                 ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:65: syntax error, unexpected ':', expecting keyword_end
+    "financial_status": "partially_paid"
+                       ^
+/home/wizard/Downloads/anova/app/controllers/home_controller.rb:66: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/home_controller.rb:24: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:25: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:27: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:31: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:32: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:32: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:33: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:33: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:34: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:34: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:37: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:38: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:38: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:39: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:39: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:40: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:40: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:41: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:42: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:42: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:43: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:43: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:44: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:44: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:45: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:46: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/home_controller.rb:47: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:48: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:48: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:49: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:49: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:50: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:50: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:51: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:51: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:52: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:52: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:53: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:53: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:54: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:54: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:55: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:56: syntax error, unexpected '}', expecting keyword_end
+  app/controllers/home_controller.rb:57: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:57: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:58: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:60: syntax error, unexpected ':', expecting tASSOC
+  app/controllers/home_controller.rb:60: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:61: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:61: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/home_controller.rb:62: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:65: syntax error, unexpected ':', expecting keyword_end
+  app/controllers/home_controller.rb:66: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:11:48 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2126.1ms)
+Completed 200 OK in 5250ms (Views: 2140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:11:54 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:11:55 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:12:53 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2086.2ms)
+Completed 200 OK in 6093ms (Views: 2105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:13:00 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:15:09 +0400
+
+SyntaxError (/home/wizard/Downloads/anova/app/controllers/home_controller.rb:70: syntax error, unexpected ':'):
+  app/controllers/home_controller.rb:70: syntax error, unexpected ':'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:15:16 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2083.1ms)
+Completed 200 OK in 6784ms (Views: 2098.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:15:23 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:15:24 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:15:57 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2012.5ms)
+Completed 200 OK in 5956ms (Views: 2033.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:16:03 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:16:04 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:16:54 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2045.2ms)
+Completed 200 OK in 6002ms (Views: 2068.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:17:00 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:17:01 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:18:13 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2029.7ms)
+Completed 200 OK in 5992ms (Views: 2040.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:18:19 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:18:20 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:19:06 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2015.4ms)
+Completed 200 OK in 5850ms (Views: 2028.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:19:12 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:19:13 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:20:10 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2092.3ms)
+Completed 200 OK in 6143ms (Views: 2109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:20:16 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:20:17 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:22:09 +0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 41ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 01:22:09 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:09 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:09 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:09 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:22:10 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 01:22:14 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova-culinary", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova-culinary.myshopify.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova-culinary.myshopify.com" for 127.0.0.1 at 2014-09-02 01:22:14 +0400
+
+
+Started GET "/auth/shopify/callback?code=58d4ff6a1a932aeb36b5f48af1f7642e&shop=anova-culinary.myshopify.com&timestamp=1409606536&signature=1019a7905d823701121f023e3e3cbd6d" for 127.0.0.1 at 2014-09-02 01:22:15 +0400
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"58d4ff6a1a932aeb36b5f48af1f7642e", "shop"=>"anova-culinary.myshopify.com", "timestamp"=>"1409606536", "signature"=>"1019a7905d823701121f023e3e3cbd6d"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:22:16 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2272.5ms)
+Completed 200 OK in 6512ms (Views: 2284.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:22:23 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:23:31 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2088.0ms)
+Completed 200 OK in 6156ms (Views: 2104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:23:37 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:23:38 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:24:09 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2067.0ms)
+Completed 200 OK in 6225ms (Views: 2081.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:24:15 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:24:16 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:25:17 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2003.6ms)
+Completed 200 OK in 6553ms (Views: 2019.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:23 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:25:24 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 01:29:32 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2168.6ms)
+Completed 200 OK in 7012ms (Views: 2180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 01:29:40 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 14:31:47 +0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 47ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 14:31:49 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (83.6ms)
+Completed 200 OK in 2306ms (Views: 2305.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:51 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 14:31:52 +0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 14:32:09 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 14:32:12 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova321", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova321.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova321.myshopify.com" for 127.0.0.1 at 2014-09-02 14:32:12 +0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 14:32:16 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 14:32:20 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova123", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova123.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova123.myshopify.com" for 127.0.0.1 at 2014-09-02 14:32:20 +0400
+
+
+Started GET "/auth/shopify/callback?code=42100e4d5cb4256ef1942b696fbfaac6&shop=anova123.myshopify.com&timestamp=1409653946&signature=672ae1d46d10191c07025d17edcc45dc" for 127.0.0.1 at 2014-09-02 14:32:26 +0400
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"42100e4d5cb4256ef1942b696fbfaac6", "shop"=>"anova123.myshopify.com", "timestamp"=>"1409653946", "signature"=>"672ae1d46d10191c07025d17edcc45dc"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 14:32:27 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2038.5ms)
+Completed 200 OK in 6206ms (Views: 2053.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 14:32:33 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 14:33:12 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1960.9ms)
+Completed 200 OK in 5819ms (Views: 1973.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:17 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 14:33:18 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 14:34:11 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1964.2ms)
+Completed 200 OK in 6242ms (Views: 1976.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 14:34:18 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:12:04 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3098ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/home_controller.rb:21:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:12:21 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2672ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/home_controller.rb:21:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:12:30 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2683ms
+
+ActiveResource::ResourceNotFound (Failed.  Response code = 404.  Response message = Not Found.):
+  app/controllers/home_controller.rb:21:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:12:38 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2018.0ms)
+Completed 200 OK in 4059ms (Views: 2039.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:12:42 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:12:43 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:13:02 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2042.6ms)
+Completed 200 OK in 4838ms (Views: 2061.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:13:07 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:13:08 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:13:48 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3006ms
+
+NoMethodError (undefined method `[]' for #<ShopifyAPI::Order:0x007fc86816f098>):
+  app/controllers/home_controller.rb:23:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:14:05 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2601ms
+
+NoMethodError (undefined method `[]' for #<ShopifyAPI::Order:0x00000004525860>):
+  app/controllers/home_controller.rb:23:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:14:15 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1992.7ms)
+Completed 200 OK in 4785ms (Views: 2011.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:14:20 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:14:21 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:16:15 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1993ms
+
+NoMethodError (undefined method `update' for ShopifyAPI::Order:Class):
+  app/controllers/home_controller.rb:21:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:23:07 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2116.4ms)
+Completed 200 OK in 6189ms (Views: 2139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:23:13 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:23:14 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:24:02 +0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2883ms
+
+NoMethodError (protected method `update' called for #<ShopifyAPI::Order:0x007fc8680d54c0>):
+  app/controllers/home_controller.rb:23:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:24:20 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1983.7ms)
+Completed 200 OK in 5839ms (Views: 2000.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:24:26 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:24:27 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:27:38 +0400
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 149ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started GET "/assets/shopify.png" for 127.0.0.1 at 2014-09-02 15:27:39 +0400
+
+
+Started POST "/login" for 127.0.0.1 at 2014-09-02 15:27:51 +0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"POo7n9UW1jEqrIhP925uKfvohGT2TD0+Nbhyi6oH8bU=", "shop"=>"anova321", "commit"=>"Install"}
+Redirected to http://localhost:3000/auth/shopify?shop=anova321.myshopify.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=anova321.myshopify.com" for 127.0.0.1 at 2014-09-02 15:27:51 +0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-09-02 15:27:55 +0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify/callback?code=2a6505a4f2f8d8d8b9ca8d21a85468e9&shop=anova123.myshopify.com&timestamp=1409657278&signature=460676bee6817835bbea904f7d1813e3" for 127.0.0.1 at 2014-09-02 15:27:58 +0400
+Processing by SessionsController#show as HTML
+  Parameters: {"code"=>"2a6505a4f2f8d8d8b9ca8d21a85468e9", "shop"=>"anova123.myshopify.com", "timestamp"=>"1409657278", "signature"=>"460676bee6817835bbea904f7d1813e3"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:27:58 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2008.7ms)
+Completed 200 OK in 5720ms (Views: 2023.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:28:04 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:28:05 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:28:23 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2034.5ms)
+Completed 200 OK in 5750ms (Views: 2045.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:28:29 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:29:23 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2060.3ms)
+Completed 200 OK in 5831ms (Views: 2070.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:28 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:29:29 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:31:37 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2066.8ms)
+Completed 200 OK in 6090ms (Views: 2083.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:43 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:31:44 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-02 15:33:04 +0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2027.1ms)
+Completed 200 OK in 6026ms (Views: 2049.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/imports.css?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/shopify_app_buttons.css?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/shopify_app.css?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/typeahead.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/grid-18px.png" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/twitter/bootstrap/glyphicons-halflings.png" for 127.0.0.1 at 2014-09-02 15:33:10 +0400
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-09-02 15:33:11 +0400
